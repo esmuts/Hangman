@@ -2,6 +2,8 @@
 
 Hangman is a basic word-guessing game in which the player tries to guess a secret word by picking letters from the alphabet. Too many wrong guesses, and a stick man is hung from the gallows, terminating the game.
 
+The app was built in React.
+
 ## Contents
 
 - Running Hangman
