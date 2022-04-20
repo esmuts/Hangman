@@ -1,0 +1,10 @@
+.instructions {
+  background-color: lightgrey;
+  width: 85vw;
+  height: 75vh;
+  padding: 1rem;
+}
+
+.instructions ul {
+  text-align: left;
+}

@@ -1,0 +1,41 @@
+.alphabet-display {
+  height: 100%;
+  width: 95%;
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.game-over-display {
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .alphabet-display {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .alphabet-display {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .alphabet-display {
+    width: 65%;
+  }
+}

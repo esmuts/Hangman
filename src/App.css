@@ -1,38 +1,53 @@
+/* App CSS */
+
 .App {
   text-align: center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wait-message {
+  font-family: "Londrina Sketch", cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Page layout CSS */
+
+.app-instructions {
+  position: absolute;
+  margin: 0;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-header {
+  height: 15%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.app-main {
+  height: 45%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-gallows {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.app-wordbox {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.app-alphabet-display {
+  height: 30%;
+}
+
+.app-menu {
+  height: 10%;
 }

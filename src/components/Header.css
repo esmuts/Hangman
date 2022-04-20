@@ -1,0 +1,5 @@
+.game-header {
+  font-family: "Londrina Sketch", cursive;
+  font-size: calc(1rem + 12vmin);
+  z-index: 10;
+}

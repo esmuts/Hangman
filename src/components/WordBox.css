@@ -1,0 +1,9 @@
+.word-box {
+  height: 15vmin;
+  width: 90%;
+  font-size: calc(1rem + 2vmin);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}

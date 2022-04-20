@@ -1,0 +1,22 @@
+.letter-tile {
+  font-size: 3.5vmin;
+  height: 7vmin;
+  aspect-ratio: 1 / 1;
+  background-color: lightblue;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.clicked {
+  visibility: hidden;
+}
+
+@media screen and (min-width: 576px) {
+  .letter-tile {
+    font-size: 3vmin;
+    height: 5vmin;
+  }
+}
