@@ -10,7 +10,9 @@ Hangman is a basic word-guessing game, built in React, in which the player tries
 
 ## Running Hangman
 
-To run Hangman, follow these steps:
+You can play the game by visiting the following deployment: https://difficult-hangman.herokuapp.com
+
+Or you can run Hangman on your own machine by following these steps:
 
 - Clone the repository to your local system.
 - Open a command line prompt, and navigate to the directory to which you downloaded the repository.
