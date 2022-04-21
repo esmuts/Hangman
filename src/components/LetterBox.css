@@ -1,3 +1,8 @@
 .game-over-letter {
   color: red;
 }
+
+.letter,
+.underscore {
+  margin: 0.25rem;
+}

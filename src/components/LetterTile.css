@@ -2,6 +2,7 @@
   font-size: 3.5vmin;
   height: 7vmin;
   aspect-ratio: 1 / 1;
+  margin: 0.5rem;
   background-color: lightblue;
   border-radius: 25px;
   display: flex;

@@ -23,12 +23,12 @@ function LetterBox(props) {
 // Helper function returns a letter, based on the value of the received letter
 // props.
 function RenderedLetter(props) {
-  return <div>{props.letter.toUpperCase()}</div>;
+  return <div className="letter">{props.letter.toUpperCase()}</div>;
 }
 
 // Helper functiton returns an underscore.
 function Underscore() {
-  return <div>_</div>;
+  return <div className="underscore">_</div>;
 }
 
 export default LetterBox;

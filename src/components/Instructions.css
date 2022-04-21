@@ -2,9 +2,16 @@
   background-color: lightgrey;
   width: 85vw;
   height: 75vh;
-  padding: 1rem;
+  padding: 0.5rem;
+  font-size: calc(0.5rem + 2vmin);
 }
 
 .instructions ul {
   text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .instructions {
+    font-size: calc(1rem + 1vmin);
+  }
 }
