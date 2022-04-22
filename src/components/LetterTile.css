@@ -1,7 +1,7 @@
 .letter-tile {
   font-size: 3.5vmin;
+  width: 7vmin;
   height: 7vmin;
-  aspect-ratio: 1 / 1;
   margin: 0.5rem;
   background-color: lightblue;
   border-radius: 25px;
@@ -19,5 +19,6 @@
   .letter-tile {
     font-size: 3vmin;
     height: 5vmin;
+    width: 5vmin;
   }
 }
