@@ -20,14 +20,13 @@
 }
 
 .app-header {
-  height: 15%;
+  height: 17%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: end;
 }
 
 .app-main {
-  height: 40%;
+  height: 45%;
 }
 
 .app-gallows {
@@ -38,7 +37,7 @@
 }
 
 .app-wordbox {
-  height: 15%;
+  height: 20%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -51,7 +50,17 @@
 .app-menu {
   position: absolute;
   margin: 0;
-  bottom: 4%;
-  left: 50%;
-  transform: translate(-50%);
+  top: 0;
+  right: 0;
+  z-index: 20;
+}
+
+@media screen and (min-width: 768px) {
+  .app-main {
+    height: 40%;
+  }
+
+  .app-wordbox {
+    height: 15%;
+  }
 }

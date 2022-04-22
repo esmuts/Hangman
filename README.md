@@ -17,6 +17,7 @@ Or you can run Hangman on your own machine by following these steps:
 - Clone the repository to your local system.
 - Open a command line prompt, and navigate to the directory to which you downloaded the repository.
 - Download and install NPM: <https://nodejs.org/en/download/>
+- Type 'npm install' in the app directory, and wait for the process to finish.
 - Type `npm start`
 - The Hangman app should open in your default browser.
 
